@@ -1,0 +1,42 @@
+.idea
+.ipynb_checkpoints
+.mypy_cache
+.vscode
+__pycache__
+.pytest_cache
+htmlcov
+dist
+site
+.coverage*
+coverage.xml
+.netlify
+test.db
+wedding_list.db
+log.txt
+Pipfile.lock
+env3.*
+env
+.env*
+*.log
+docs_build
+site_build
+venv
+.venv
+docs.zip
+archive.zip
+*.db-journal
+*.egg-info/
+*.http
+
+# vim temporary files
+*~
+.*.sw?
+.cache
+
+# macOS
+.DS_Store
+
+.codspeed
+
+# plan
+/plans
