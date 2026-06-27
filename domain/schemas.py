@@ -34,6 +34,11 @@ class ItemBuyUpdate(BaseModel):
     is_bought: bool
 
 
+class UserItemBuyUpdate(BaseModel):
+    is_bought: bool
+    pass_code: str
+
+
 class ItemResponse(BaseModel):
     id: int
     name: str
